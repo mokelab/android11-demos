@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Android11Demo</string>
+
+    <string name="bubble">Bubble</string>
+    <string-array name="feature_names">
+        <item>@string/bubble</item>
+    </string-array>
 </resources>
