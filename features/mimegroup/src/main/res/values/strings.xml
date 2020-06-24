@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="add_mime_type">Add MIME type</string>
+    <string name="mime_type">MIME type</string>
+    <string name="add">Add</string>
+    <string name="view_with_mime_type">View with MIME type</string>
+    <string name="view">View</string>
+    <string name="empty" />
+    <string name="done_add">Type Added</string>
+    <string name="err_activity_not_found">Activity not found</string>
+</resources>
