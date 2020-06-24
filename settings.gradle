@@ -1,3 +1,4 @@
+include ':libraries:adapter'
 include ':features:mimegroup'
 include ':features:bubble'
 include ':app'
