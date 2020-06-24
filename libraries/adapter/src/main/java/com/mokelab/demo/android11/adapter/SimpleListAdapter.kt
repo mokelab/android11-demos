@@ -5,11 +5,11 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
-import com.mokelab.demo.android11.databinding.SimpleListItemBinding
+import com.mokelab.demo.android11.adapter.databinding.SimpleListItemBinding
 
-class SimpleListAdapter<T>(
+open class SimpleListAdapter<T>(
     private val binder: (T, SimpleListItemBinding) -> Unit,
-    private val listener: SimpleListAdapter.ItemClickListener<T>,
+    private val listener: ItemClickListener<T>,
     callbacks: DiffUtil.ItemCallback<T>
 ) :
     ListAdapter<T, SimpleListAdapter.ViewHolder>(callbacks) {

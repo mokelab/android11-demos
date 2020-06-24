@@ -17,7 +17,7 @@ class MainFragment : Fragment(R.layout.main_fragment) {
         val binding = MainFragmentBinding.bind(view)
         this.binding = binding
 
-        val adapter = SimpleListAdapter<String>(binder = { item, itemBinding ->
+        val adapter = SimpleListAdapter(binder = { item, itemBinding ->
             itemBinding.text.text = item
         }, callbacks = callbacks, listener = listener)
         binding.recycler.adapter = adapter
@@ -35,6 +35,7 @@ class MainFragment : Fragment(R.layout.main_fragment) {
         override fun onItemClicked(item: String, position: Int) {
             when (position) {
                 0 -> findNavController().navigate(R.id.action_main_to_bubble)
+                1 -> findNavController().navigate(R.id.action_main_to_mimegroup)
             }
         }
     }

@@ -17,9 +17,20 @@
             app:exitAnim="@anim/nav_default_exit_anim"
             app:popEnterAnim="@anim/nav_default_pop_enter_anim"
             app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+        <action
+            android:id="@+id/action_main_to_mimegroup"
+            app:destination="@id/mimeGroupFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
     </fragment>
     <fragment
         android:id="@+id/bubbleFragment"
         android:name="com.mokelab.demo.android11.bubble.BubbleFragment"
         android:label="BubbleFragment" />
+    <fragment
+        android:id="@+id/mimeGroupFragment"
+        android:name="com.mokelab.demo.android11.mimegroup.MimeGroupFragment"
+        android:label="MimeGroupFragment" />
 </navigation>
