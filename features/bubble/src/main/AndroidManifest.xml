@@ -1,0 +1,10 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mokelab.demo.android11.bubble">
+
+    <application>
+        <activity
+            android:name=".BubbleChatActivity"
+            android:resizeableActivity="true"
+            android:allowEmbedded="true" />
+    </application>
+</manifest>

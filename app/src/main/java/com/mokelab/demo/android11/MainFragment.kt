@@ -3,6 +3,7 @@ package com.mokelab.demo.android11
 import android.os.Bundle
 import android.view.View
 import androidx.fragment.app.Fragment
+import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.DiffUtil
 import com.mokelab.demo.android11.adapter.SimpleListAdapter
 import com.mokelab.demo.android11.databinding.MainFragmentBinding
@@ -32,7 +33,9 @@ class MainFragment : Fragment(R.layout.main_fragment) {
 
     private val listener = object : SimpleListAdapter.ItemClickListener<String> {
         override fun onItemClicked(item: String, position: Int) {
-            // later
+            when (position) {
+                0 -> findNavController().navigate(R.id.action_main_to_bubble)
+            }
         }
     }
 
