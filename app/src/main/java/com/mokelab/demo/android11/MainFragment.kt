@@ -36,6 +36,7 @@ class MainFragment : Fragment(R.layout.main_fragment) {
             when (position) {
                 0 -> findNavController().navigate(R.id.action_main_to_bubble)
                 1 -> findNavController().navigate(R.id.action_main_to_mimegroup)
+                2 -> findNavController().navigate(R.id.action_main_to_exit_reason)
             }
         }
     }
