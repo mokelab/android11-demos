@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="anr">ANR</string>
+    <string name="exit_reasons">Exit Reasons</string>
+    <string name="crash">Crash</string>
+    <string name="exit">Exit</string>
+    <string name="detail_timestamp">Timestamp:%1$s</string>
+    <string name="detail_status">Status:%1$d</string>
+    <string name="detail_pid">pid: %1$d</string>
+    <string name="detail_process_name">Process Name: %1$s</string>
+    <string name="detail_pss">PSS: %1$d</string>
+    <string name="detail_package_uid">Package uid: %1$d</string>
+    <string name="detail_defining_uid">Defining uid: %1$d</string>
+    <string name="detail_real_uid">Real uid: %1$d</string>
+    <string name="detail_rss">RSS: %1$d</string>
+    <string name="detail_importance">Importance: %1$d</string>
+</resources>

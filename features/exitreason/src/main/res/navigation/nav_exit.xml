@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_exit"
+    app:startDestination="@id/exitReasonFragment">
+
+    <fragment
+        android:id="@+id/exitReasonFragment"
+        android:name="com.mokelab.demo.android11.exitreason.ExitReasonFragment"
+        android:label="ExitReasonFragment"
+        tools:layout="@layout/exit_reason_fragment">
+        <action
+            android:id="@+id/action_exit_list_to_detail"
+            app:destination="@id/exitReasonDetailFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+    </fragment>
+    <fragment
+        android:id="@+id/exitReasonDetailFragment"
+        android:name="com.mokelab.demo.android11.exitreason.ExitReasonDetailFragment"
+        android:label="ExitReasonDetailFragment"
+        tools:layout="@layout/exit_reason_detail_fragment">
+        <argument
+            android:name="info"
+            app:argType="android.app.ApplicationExitInfo" />
+    </fragment>
+</navigation>
