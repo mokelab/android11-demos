@@ -27,12 +27,6 @@ class ImeFragment : Fragment(R.layout.ime_fragment) {
         binding.checkButton.setOnClickListener {
             checkImeStatus(it)
         }
-
-        /*
-        requireActivity().window.setDecorFitsSystemWindows(false)
-
-         */
-
     }
 
     override fun onDestroyView() {
