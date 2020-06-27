@@ -4,9 +4,13 @@
     <string name="bubble">Bubble</string>
     <string name="mimegroup">MIME group</string>
     <string name="exit_reason">Exit reason</string>
+    <string name="ime">IME</string>
+    <string name="window_insets">Window Insets</string>
     <string-array name="feature_names">
         <item>@string/bubble</item>
         <item>@string/mimegroup</item>
         <item>@string/exit_reason</item>
+        <item>@string/ime</item>
+        <item>@string/window_insets</item>
     </string-array>
 </resources>

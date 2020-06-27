@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="check">Check</string>
+    <string name="ime_status">IME is %1$s</string>
+    <string name="hide">Hide</string>
+    <string name="show">Show</string>
+</resources>

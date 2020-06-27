@@ -31,6 +31,16 @@
             app:exitAnim="@anim/nav_default_exit_anim"
             app:popEnterAnim="@anim/nav_default_pop_enter_anim"
             app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+        <action
+            android:id="@+id/action_main_to_ime"
+            app:destination="@id/imeFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+        <action
+            android:id="@+id/action_main_to_window_insets"
+            app:destination="@id/windowInsetsActivity" />
     </fragment>
     <fragment
         android:id="@+id/bubbleFragment"
@@ -41,4 +51,12 @@
         android:name="com.mokelab.demo.android11.mimegroup.MimeGroupFragment"
         android:label="MimeGroupFragment" />
     <include app:graph="@navigation/nav_exit" />
+    <fragment
+        android:id="@+id/imeFragment"
+        android:name="com.mokelab.demo.android11.ime.ImeFragment"
+        android:label="ImeFragment" />
+    <activity
+        android:id="@+id/windowInsetsActivity"
+        android:name="com.mokelab.demo.android11.ime.WindowInsetsActivity"
+        android:label="WindowInsetsActivity" />
 </navigation>

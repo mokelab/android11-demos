@@ -1,3 +1,4 @@
+include ':features:ime'
 include ':features:exitreason'
 include ':libraries:adapter'
 include ':features:mimegroup'
