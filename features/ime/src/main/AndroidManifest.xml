@@ -1,0 +1,7 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mokelab.demo.android11.ime">
+
+    <application>
+        <activity android:name=".WindowInsetsActivity" />
+    </application>
+</manifest>
